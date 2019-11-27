@@ -91,7 +91,8 @@ li {
 h1,
 h2,
 .head-info p,
-.services-title p {
+.services-title p,
+.prices-title p {
   font-family: "Lato", sans-serif;
 }
 
@@ -104,7 +105,6 @@ h1 {
 .head-info p {
   color: #fff;
   padding-top: 10px;
-  font-size: 16px;
 }
 
 .head-form {
@@ -176,7 +176,7 @@ input::placeholder:focus {
   margin-top: 20px;
 }
 
-/*------------ styles for section our services -------------*/
+/*------------ styles for the section our services -------------*/
 
 .content {
   padding-top: 80px;
@@ -223,7 +223,7 @@ h3 {
   padding-left: 30px;
 }
 
-/*------------ styles for section About us -------------*/
+/*------------ styles for the section About us -------------*/
 
 .about-us {
   /* display: flex;
@@ -269,12 +269,9 @@ h3 {
   cursor: pointer;
 }
 
+/* ------------ styles for the section Pricing Table ------------- */
 
-
-
-
-.test {
-  width: 100%;
-  height: 600px;
-  background-color: black;
+.prices {
+  padding: 135px 0 165px 0;
+  text-align: center;
 }
