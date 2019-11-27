@@ -90,9 +90,11 @@ li {
 
 h1,
 h2,
+h3,
+h4,
 .head-info p,
 .services-title p,
-.prices-title p {
+.prices {
   font-family: "Lato", sans-serif;
 }
 
@@ -274,4 +276,94 @@ h3 {
 .prices {
   padding: 135px 0 165px 0;
   text-align: center;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+
+#prices-background {
+  width: 100%;
+  background-color: #e7edf3;
+}
+
+.prices-title {
+  margin-bottom: 30px;
+}
+
+.basic-plan {
+  box-sizing: border-box;
+  padding: 60px 0 50px 0;
+  width: 390px;
+  background-color: #fff;
+  border: 1px solid #868686;
+}
+
+.prices-content {
+  box-sizing: border-box;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prices-content_items {
+  box-sizing: border-box;
+}
+
+
+.prices-content_items h4 {
+  color: #818b95;
+}
+
+.prices-content_items h4 {
+  padding-bottom: 30px;
+  font-size: 25px;
+}
+
+.prices-content_items span {
+  display: block;
+}
+
+.prices-content_items span:nth-child(2) {
+  color: #ffbb42;
+  font-size: 60px;
+}
+
+.prices-content_items span:nth-child(3) {
+  padding: 0 0 35px 0;
+  color: #818b95;
+  font-size: 20px;
+}
+
+.prices-content_items hr {
+  width: 80%;
+  border: none;
+  border-top: 1px solid #b5bbc1;
+}
+
+.prices-content_items p {
+  color: #b5bbc1;
+  font-size: 16px;
+  padding: 15px 0;
+}
+
+.prices-content_items button {
+  margin-top: 15px;
+  height: 40px;
+  width: 130px;
+  background: #ffbb42;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.basic-plan:hover {
+  padding: 85px 0 80px 0;
+  width: 390px;
+  background-color: #709dca;
+}
+
+.prices-content {
+  color: #fff;
 }
