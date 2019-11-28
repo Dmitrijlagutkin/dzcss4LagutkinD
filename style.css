@@ -378,3 +378,10 @@ h3 {
 .types-of-plans:hover hr {
   color: #fff;
 }
+
+/* ------------ styles for the section How it works ------------- */
+
+.HowItWorks-title {
+  text-align: center;
+  margin: 155px 0 120px 0;
+}
