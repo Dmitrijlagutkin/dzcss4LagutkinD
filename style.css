@@ -95,7 +95,8 @@ h4,
 .head-info p,
 .services-title p,
 .prices,
-.HowItWorks-title p {
+.HowItWorks-title p,
+.reviews-title p {
   font-family: "Lato", sans-serif;
 }
 
@@ -448,4 +449,16 @@ h3 {
   font-size: 14px;
   margin-bottom: 150px;
   outline: none;
+}
+
+/* ------------ styles for the section Happy Clients ------------- */
+
+.reviews {
+  background-color: #ffc155;
+}
+
+.reviews-title {
+  padding: 140px 0 60px 0;
+  color: #fff;
+  text-align: center;
 }
