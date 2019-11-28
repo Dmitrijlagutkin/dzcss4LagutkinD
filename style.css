@@ -364,6 +364,13 @@ h3 {
   background-color: #709dca;
 }
 
-.prices-content {
+.basic-plan:hover h4,
+.basic-plan:hover p,
+.basic-plan:hover span,
+.basic-plan:hover hr {
+  color: #fff;
+}
+
+.test:hover {
   color: #fff;
 }
