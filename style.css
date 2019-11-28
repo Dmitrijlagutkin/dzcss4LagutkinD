@@ -94,7 +94,8 @@ h3,
 h4,
 .head-info p,
 .services-title p,
-.prices {
+.prices,
+.HowItWorks-title p {
   font-family: "Lato", sans-serif;
 }
 
@@ -284,7 +285,7 @@ h3 {
 .prices {
   padding: 135px 0 165px 0;
   text-align: center;
-  text-transform: uppercase;
+
   box-sizing: border-box;
 }
 
@@ -306,6 +307,7 @@ h3 {
 }
 
 .prices-content {
+  text-transform: uppercase;
   box-sizing: border-box;
   height: 600px;
   display: flex;
@@ -356,6 +358,7 @@ h3 {
 
 .prices-content_items button {
   margin-top: 15px;
+  font-size: 14px;
   height: 40px;
   width: 130px;
   background: #ffbb42;
@@ -364,6 +367,7 @@ h3 {
   cursor: pointer;
   color: #fff;
   text-transform: uppercase;
+  outline: none;
 }
 
 .types-of-plans:hover {
@@ -384,4 +388,64 @@ h3 {
 .HowItWorks-title {
   text-align: center;
   margin: 155px 0 120px 0;
+}
+
+.HowItWorks-items {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.HowItWorks-items_step {
+  text-align: center;
+  box-sizing: border-box;
+
+}
+
+.HowItWorks-items_step h3 {
+  font-size: 20px;
+  padding: 100px 0 30px 0;
+}
+
+.HowItWorks-items_step p {
+  font-size: 13px;
+  padding: 0 35px 95px 35px;
+}
+
+.arrows {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.HowItWorks-items_arrow {
+  width: 25%;
+}
+
+.HowItWorks-items_arrow-center {
+  position: relative;
+  top: 100px;
+}
+
+.HowItWorks-items_arrow-side {
+  position: relative;
+  top: 10px;
+}
+
+.HowItWorks-button {
+  text-align: center;
+}
+
+.HowItWorks-button button {
+  height: 60px;
+  width: 165px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #ffbb42;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 150px;
+  outline: none;
 }
