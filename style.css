@@ -204,9 +204,17 @@ h2 {
   padding-bottom: 80px;
 }
 
-.our-services_item img {
+.our-services_item-icon svg {
   padding-right: 40px;
+  height: 45px;
+  width: 45px;
+  fill: #96b7d8;
 }
+
+.our-services_item:hover svg {
+  fill: #ffbb42;
+}
+
 
 h3 {
   font-size: 16px;
@@ -368,9 +376,5 @@ h3 {
 .basic-plan:hover p,
 .basic-plan:hover span,
 .basic-plan:hover hr {
-  color: #fff;
-}
-
-.test:hover {
   color: #fff;
 }
