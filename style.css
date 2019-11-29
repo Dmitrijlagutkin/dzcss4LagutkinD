@@ -40,12 +40,8 @@ section {
 .head-menu {
   display: flex;
   justify-content: space-between;
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
-}
-
-#munu {
-  color: #868686;
 }
 
 #menu a {
@@ -55,9 +51,14 @@ section {
   text-decoration: none;
 }
 
-.active {
-  background: #ffbb42;
+.header-menu a {
+  color: #868686;
+}
+
+.header-menu a:hover,
+.footer-menu a:hover {
   color: #fff;
+  background: #ffbb42;
 }
 
 #menu:last-child {
@@ -98,7 +99,8 @@ h4,
 .HowItWorks-title p,
 .reviews-title p,
 .reviews-clients_item-text-namered,
-.newsletter-title p {
+.newsletter-title p,
+..phone-nomber p {
   font-family: "Lato", sans-serif;
 }
 
@@ -152,10 +154,6 @@ input::placeholder {
 .input-item input[type="tel"] {
   text-indent: 40px;
 }
-
-/* input::placeholder:focus-within {
-  display: none;
-} */
 
 #input-button {
   height: 50px;
@@ -513,18 +511,13 @@ h3 {
   text-align: center;
 }
 
+/* стили для формы такие же как в header */
+
 .newsletter-form {
   display: flex;
   justify-content: center;
   padding-top: 35px;
   padding-bottom: 50px;
-}
-
-.input-item {
-  position: relative;
-  display: inline-block;
-  padding: 0 5px;
-  box-sizing: border-box;
 }
 
 .newsletter-form .input-item input {
@@ -537,18 +530,6 @@ h3 {
 
 .newsletter-form .input-item input[type="email"] {
   width: 385px;
-}
-
-.input-item img {
-  position: absolute;
-  height: 15px;
-  width: 13px;
-  top: 16px;
-  left: 22px;
-}
-
-input::placeholder {
-  font-size: 13px;
 }
 
 .contact-info {
@@ -602,4 +583,60 @@ h5 {
   border: none;
   border-top: 1px solid #aeb7ba;
   padding-bottom: 30px;
+}
+
+/* ------------ styles for the section footer ------------- */
+
+.footer-content {
+  text-align: center;
+}
+
+.phone-nomber {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  align-items: center;
+}
+
+.phone-nomber img {
+  width: 20px;
+  height: 20px;
+  padding-right: 5px;
+}
+
+.footer-menu a {
+  color: #394b50;
+}
+
+.footer-icons {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icons svg {
+  fill: #709dca;
+  height: 15px;
+  width: 15px;
+  padding: 0 10px;
+}
+
+.footer-icons svg:hover {
+  fill: #ffc155;
+}
+
+.footter-bottom {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #709dca;
+}
+
+.footter-bottom a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
 }
