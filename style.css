@@ -97,7 +97,8 @@ h4,
 .prices,
 .HowItWorks-title p,
 .reviews-title p,
-.reviews-clients_item-text-namered {
+.reviews-clients_item-text-namered,
+.newsletter-title p {
   font-family: "Lato", sans-serif;
 }
 
@@ -143,9 +144,18 @@ h1 {
 }
 
 input::placeholder {
-  padding-left: 40px;
   font-size: 13px;
 }
+
+.input-item input[type="text"],
+.input-item input[type="email"],
+.input-item input[type="tel"] {
+  text-indent: 40px;
+}
+
+/* input::placeholder:focus-within {
+  display: none;
+} */
 
 #input-button {
   height: 50px;
@@ -159,11 +169,6 @@ input::placeholder {
   color: #fff;
   font-size: 14px;
   text-transform: uppercase;
-}
-
-input::placeholder:focus {
-  color: transparent;
-  margin-left: 40px;
 }
 
 .head-slider {
@@ -499,4 +504,102 @@ h3 {
 
 .reviews-clients_item-text-namered span {
   color: #f6772c;
+}
+
+/* ------------ styles for the section newsletter ------------- */
+
+.newsletter-title {
+  margin-top: 155px;
+  text-align: center;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+  padding-bottom: 50px;
+}
+
+.input-item {
+  position: relative;
+  display: inline-block;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
+.newsletter-form .input-item input {
+  padding: 0 5px;
+  height: 50px;
+  width: 300px;
+  border: 1px solid #cbcbcb;
+  background: #fff;
+}
+
+.newsletter-form .input-item input[type="email"] {
+  width: 385px;
+}
+
+.input-item img {
+  position: absolute;
+  height: 15px;
+  width: 13px;
+  top: 16px;
+  left: 22px;
+}
+
+input::placeholder {
+  font-size: 13px;
+}
+
+.contact-info {
+  background-image: url(images/newsletterbg.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 45px;
+}
+
+.contact-info_circlegrey {
+  background-image: url(images/circlegrey.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+h5 {
+  font-size: 15px;
+  color: #fff;
+}
+
+.contact-info_text {
+  padding-top: 60px;
+  padding-bottom: 95px;
+  display: inline-block;
+  text-align: center;
+  background: none;
+}
+
+.contact-info_text p {
+  padding-top: 10px;
+  color: #aeb7ba;
+  font-size: 13px;
+}
+
+.contact-info_text a {
+  display: block;
+  padding-top: 10px;
+  font-size: 13px;
+  color: #ffbb42;
+  text-decoration: none;
+  outline: none;
+}
+
+.contact-info img {
+  padding-bottom: 215px;
+}
+
+.contact-info hr {
+  border: none;
+  border-top: 1px solid #aeb7ba;
+  padding-bottom: 30px;
 }
